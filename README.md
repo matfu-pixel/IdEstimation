@@ -5,11 +5,14 @@
 3. Отчет о проделанной работе `IdEstimation.pdf`
 
 ### Запуск
-import estimators
+
+```
+import estimators  
 ...
-cpca = estimators.cPCA()
-cpca.fit(data)
-print(cpca.dimension_)
-fisherS = estimators.FisherS()
-fisherS.fit(data)
+cpca = estimators.cPCA()  
+cpca.fit(data)  
+print(cpca.dimension_)  
+fisherS = estimators.FisherS()  
+fisherS.fit(data)  
 print(fisherS.dimension_)
+```
